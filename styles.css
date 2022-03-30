@@ -9,7 +9,7 @@
 .side-bar {
   width: 260px;
   height: 100vh;
-  margin-left: 46px;
+  margin-left: 60px;
   border-right: 1px solid#eff3f4;
   padding-top: 1px;
   overflow-y: hidden;
@@ -35,8 +35,6 @@
 /* nav icons */
 
 .nav-icons {
-  display: inline-flex;
-  flex-direction: column;
   padding-bottom: 10px;
   font-weight: 400;
 }
@@ -83,7 +81,7 @@
   bottom: 0;
 }
 .profile {
-  margin: 0 0 10px 40px;
+  margin: 0 0 10px 55px;
 }
 
 .profile:hover {
