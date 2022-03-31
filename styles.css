@@ -193,6 +193,7 @@
   height: 24px;
   padding: 13px 0;
 }
+/* Icons under input */
 .tweet-section .tweet-icon {
   padding-top: 8px;
   margin-left: 7px;
@@ -218,6 +219,7 @@
   margin-bottom: 6px;
 }
 
+/* styling of svg icons */
 .icon-div .cls-1 {
   fill: rgb(29, 155, 240);
 }
@@ -242,7 +244,7 @@
   font-weight: 700;
   padding-top: 12px;
 }
-
+/* Timeline tweet button */
 .tweet-butt button {
   background-color: #8ecdf7;
   color: white;
