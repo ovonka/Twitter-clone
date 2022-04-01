@@ -253,3 +253,175 @@
   border-radius: 50px;
   border: none;
 }
+/* Feed */
+.tweet {
+  display: flex;
+  position: relative;
+  height: 114px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eff3f4;
+}
+.tweet:hover {
+  cursor: pointer;
+  background-color: rgb(248, 248, 248);
+}
+.tweet-info {
+  width: 597px;
+}
+.tweet .image {
+  display: flex;
+  align-items: flex-start;
+  width: 48px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.tweet .image:hover {
+  cursor: pointer;
+}
+
+.tweet-author {
+  display: flex;
+  justify-content: space-between;
+}
+.t-a {
+  display: flex;
+  justify-content: flex-start;
+}
+.t-a .name-space {
+  font-size: 15px;
+  font-weight: 700;
+  padding-right: 4px;
+}
+.t-a .at-color {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(83, 100, 113);
+}
+.t-a .name-space:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.t-a .time-tweeted:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.more-icon {
+  display: flex;
+  width: 19px;
+}
+/* options icon */
+.m-border-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  width: 35px;
+  height: 35px;
+}
+
+.m-border-icon:hover,
+.inside-color:hover {
+  cursor: pointer;
+  background-color: rgb(223, 235, 243);
+  fill: rgb(29, 155, 240);
+  border-radius: 50%;
+  transition-property: background;
+  transition-duration: 0.2s;
+}
+.tweet-text {
+  position: relative;
+  height: 52px;
+}
+.tweet-text .twt-icons {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 425px;
+  margin-top: 7px;
+  color: rgb(83, 100, 113);
+}
+
+.tweet-icon-border-g {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+}
+.tweet-icon-border-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+}
+.tweet-icon-border-r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+}
+.tweet-icon-border-b:hover {
+  cursor: pointer;
+  background-color: rgb(223, 235, 243);
+  color: rgb(29, 155, 240);
+  fill: rgb(29, 155, 240);
+  transition-property: background;
+  transition-duration: 0.2s;
+  border-radius: 50%;
+}
+.tweet-icon-border-g:hover {
+  cursor: pointer;
+  background-color: rgb(231, 240, 232);
+  color: rgb(56, 181, 71);
+  fill: rgb(56, 181, 71);
+  transition-property: background;
+  transition-duration: 0.2s;
+  border-radius: 50%;
+}
+.tweet-icon-border-r:hover {
+  cursor: pointer;
+  background-color: rgb(240, 226, 226);
+  color: rgb(238, 34, 34);
+  fill: rgb(238, 34, 34);
+  transition-property: background;
+  transition-duration: 0.2s;
+  border-radius: 50%;
+}
+.tweet-icon-border-b:hover {
+  cursor: pointer;
+  background-color: rgb(223, 235, 243);
+  color: rgb(29, 155, 240);
+  fill: rgb(29, 155, 240);
+  transition-property: background;
+  transition-duration: 0.2s;
+  border-radius: 50%;
+}
+
+.tweet-icon-action {
+  font-size: 15px;
+  font-weight: 400;
+  height: 19px;
+}
+.dis {
+  font-weight: 400;
+}
+.dis .tweet-no {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  left: 37px;
+  font-size: 13px;
+}
