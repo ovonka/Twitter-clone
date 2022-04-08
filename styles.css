@@ -13,7 +13,6 @@
 .side-bar {
   position: fixed;
   left: 0;
-  overflow: hidden;
   width: 260px;
   height: 100vh;
   margin-left: 60px;
@@ -155,7 +154,6 @@
   width: 36px;
   height: 36px;
   margin-top: 3px;
-
   border-radius: 50%;
   transition-property: background;
   transition-duration: 0.2s;
@@ -444,18 +442,24 @@
 .trends-container {
   display: flex;
   justify-content: center;
-  padding: 5px 0 64px 0;
+  position: sticky;
+  top: 0;
+  padding: 5px 0 45px 0;
   width: 431px;
-  height: 1453px;
+  height: fit-content;
 }
 .trends-to-follow {
   width: 350px;
   height: 100%;
 }
+
 .search-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 10;
+  z-index: 1;
   height: 44px;
   margin-bottom: 16px;
   background-color: #eff3f4;
@@ -478,13 +482,19 @@
   height: 19px;
   fill: rgb(121 135 146);
 }
-/* Treands */
+/* Trends */
+.trends-container {
+  margin-bottom: 45px;
+}
 .trends {
   background-color: rgb(251, 252, 252);
   width: 100%;
   height: 940px;
   border-radius: 16px;
+  margin: 60px 0 16px 0;
+  padding: 1px;
 }
+
 .trends-title {
   display: inline-flex;
   align-items: center;
@@ -565,4 +575,133 @@
 .show-more:hover {
   cursor: pointer;
   background-color: rgb(242, 242, 242);
+}
+/* Who to follow section */
+.who-to-follow {
+  width: 348px;
+  height: 316px;
+  margin-bottom: 16px;
+  padding: 1px;
+  background-color: rgb(251, 252, 252);
+  border-radius: 16px;
+}
+div.to-follow-title:first-child {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 12px 17px;
+}
+.profile-follow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 17px;
+  height: 72px;
+  transition-property: background;
+  transition-duration: 0.2s;
+}
+.profile-follow:hover {
+  cursor: pointer;
+  background-color: rgb(242, 242, 242);
+}
+.profile-info {
+  display: flex;
+}
+.follow-name {
+  display: flex;
+  transition-property: background;
+  transition-duration: 0.2s;
+  font-size: 15px;
+  font-weight: 700;
+}
+.follow-name:first-child {
+  margin-right: 2px;
+}
+.follow-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.follows-at {
+  display: flex;
+}
+
+.to-follow-profile {
+  display: flex;
+  align-items: center;
+}
+.follow-button {
+  width: 77px;
+  height: 36px;
+  background-color: #0f1419;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 50px;
+}
+/* Footer */
+.footer ul li {
+  display: inline-flex;
+  padding-right: 2px;
+}
+.footer ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer-links {
+  list-style-type: none;
+  font-size: 13px;
+  font-weight: 400;
+  color: #536471;
+}
+.footer-icon {
+  width: 17px;
+  fill: #536471;
+}
+.copyright {
+  color: #536471;
+}
+.message-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 400px;
+  height: 53px;
+  padding: 0 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+}
+.message-bar:hover {
+  cursor: pointer;
+}
+.text-msg {
+  font-size: 20px;
+  font-weight: 700;
+}
+.message-icon {
+  width: 20px;
+}
+.expand-message {
+  display: flex;
+}
+.message-i-border,
+.expand-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 50px;
+  transition-property: background;
+  transition-duration: 0.2s;
+}
+.message-i-border:hover,
+.expand-icon:hover {
+  cursor: pointer;
+  background-color: #eff3f4;
 }
