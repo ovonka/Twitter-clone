@@ -659,6 +659,7 @@ div.to-follow-title:first-child {
 .copyright {
   color: #536471;
 }
+/* Fixed message bar */
 .message-bar {
   display: flex;
   justify-content: space-between;
