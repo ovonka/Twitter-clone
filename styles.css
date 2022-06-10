@@ -112,14 +112,16 @@
   font-weight: 700;
 }
 /* Main-trend-container */
+
 .main-trend-container {
   margin-left: 320px;
   display: flex;
+  
 }
 
 /* Main container */
 .main-container {
-  width: 598px;
+  width: calc(100% - 390px);
   border-right: 1px solid #eff3f4;
   border-left: 1px solid #eff3f4;
 }
@@ -346,7 +348,7 @@
 /* tweet with image */
 .tweet-pic img {
   margin-top: 9px;
-  width: 504px;
+  width: fit-content;
   height: 283px;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
@@ -667,7 +669,7 @@ div.to-follow-title:first-child {
   background-color: #ffffff;
   position: fixed;
   bottom: 0;
-  width: 400px;
+  width: 380px;
   height: 53px;
   padding: 0 16px;
   border-top-left-radius: 16px;
