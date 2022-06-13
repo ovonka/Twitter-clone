@@ -30,9 +30,39 @@
          padding: 0;
      }
     /* TIMELINE */
-   
+    .mobile-btn{
+        display: inline-block;
+        position: fixed;
+        bottom: 4.3rem;
+        right: 1rem;
+        z-index: 1;
+    }
+    #btn-mobile{
+        border-radius: 50%;
+        background-color: rgb(29 155 240);
+        width: 55px;
+        height: 55px;
+        border: none;
+        padding: 15px; 
+        fill: white;
+    }
+    .directory{
+        position: fixed;
+        bottom: 0;
+        display: inline-block;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        height: 53px;
+        width: 25.29rem;
+        z-index: 1;
+        
+    }
     .w-paragraph{
         height: 16.7rem;
+    }
+    .m-b{
+        margin-bottom: 58px;
     }
     .w-image {
        height: 24.8rem;
