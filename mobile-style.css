@@ -1,0 +1,52 @@
+ @media(max-width: 480px){
+     .side-bar{
+         display: none;
+        }
+        .trends-container{
+            display: none;
+        }
+     .main-trend-container{
+         margin: 0;
+     }
+     .main-container{
+         width: fit-content;
+         border: 0;
+     }
+     .home-nav{
+         font-size: 17px;
+         width: 26.29rem;
+     }
+     .home-nav img{
+         display: inline-block;
+         height: 30px;
+         margin-right: 18px;
+     }
+     .tweet-direct{
+         height: 50px;
+     }
+     .tweet-section{
+         display: none;
+         margin: 0;
+         padding: 0;
+     }
+    /* TIMELINE */
+   
+    .w-paragraph{
+        height: 16.7rem;
+    }
+    .w-image {
+       height: 24.8rem;
+      }
+      .tweet-text .twt-icons{
+          top: 38px;
+          width: 21rem;
+      }
+      .twt-icons-image,
+      .twt-icons-para{
+          width: 21rem;
+}
+.tweet-pic img {
+    width: 20rem;
+    height: 16.5rem;
+}
+ }
